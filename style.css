@@ -1,0 +1,86 @@
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-left: 60%;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	border-bottom: groove;
+	border-color: #00FBFF; 
+	box-shadow: 0 0 20px #00FBFF;
+}
+
+#logo {
+  height: 80px;
+  vertical-align: middle;
+}
+
+nav p {
+	background: white;
+}
+
+nav li {
+	display:inline-block;
+	transition: background 0.2s;
+
+	border-style: groove;
+	border-color: #00FBFF; 
+	box-shadow: 0 0 20px #00FBFF;
+	transform: skew(20deg);
+}
+nav li a {
+	display: block;
+	transition: background 0.2s;
+	color: #5FBBBC;
+	text-align: center;
+	font-size: 140%;
+	padding: 24px 36px;
+	text-decoration: none;
+	transform: skew(-20deg);
+}
+nav li a:hover{
+	color: #00FBFF;
+	text-shadow: 0 0 10px #00FBFF;
+}
+
+nav li:hover{
+	box-shadow: 0 0 40px #00FBFF;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #00FBFF;
+	text-shadow: 0 0 10px #00FBFF;
+
+	text-align: center;
+	font-size: 350%;
+	letter-spacing: 2px;
+}
+
+hr {
+    border: 0;
+    height: 0; 
+    box-shadow: 0 0 10px 5px #00FBFF;
+    background-color: #000000;
+
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+div.content {
+	background-color: #AAAFFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+	background-color: #000000;
+}
