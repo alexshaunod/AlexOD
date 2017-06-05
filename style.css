@@ -33,8 +33,13 @@ ul.c {
 }
 
 #imgcontent {
-	height: 250px;
-    width: 400px;
+
+    border-style: solid;
+}
+
+#imgresize {
+	height: 360px;
+	width: 480px;
     border-style: solid;
 }
 
