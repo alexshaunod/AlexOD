@@ -9,6 +9,7 @@ nav ul {
 	top: 0;
 	width: 100%;
 
+	background-color: #000000;
 	border-bottom: groove;
 	border-color: #00FBFF; 
 	box-shadow: 0 0 20px #00FBFF;
@@ -27,13 +28,14 @@ ul.c {
 #logo {
   height: 80px;
   vertical-align: middle;
+  position: fixed;
+  z-index: 2500;
 }
 
 #imgcontent {
 	height: 250px;
-    width: 20%;
-    border-style: groove;
-    display: inline-block;
+    width: 400px;
+    border-style: solid;
 }
 
 nav p {
@@ -98,6 +100,10 @@ hr {
     margin-right: 30px;
 }
 
+a {
+    color: #FF00AE;
+}
+
 div.content {
 	background-color: #000000;
 	color: #00FBFF;
@@ -112,4 +118,12 @@ body {
 	font-family: Century Gothic,Arial,sans-serif;
 	margin:0;
 	background-color: #000000;
+}
+
+footer {
+	color: #00FBFF;
+	bottom: 0;
+	right: 0; 
+	text-align:right;
+	font-size: 80%;
 }
