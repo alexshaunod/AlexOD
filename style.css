@@ -26,7 +26,6 @@ ul.c {
 }
 
 #logo {
-  height: 80px;
   vertical-align: middle;
   position: fixed;
   z-index: 2500;
@@ -62,7 +61,7 @@ nav li a {
 	color: #5FBBBC;
 	text-align: center;
 	font-size: 140%;
-	padding: 24px 36px;
+	padding: 48px 36px;
 	text-decoration: none;
 	transform: skew(-20deg);
 }
