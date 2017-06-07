@@ -18,6 +18,7 @@ nav ul {
 ul.c {
 	list-style-type: circle;
 	text-align: left;
+	vertical-align: text-top;
 	display: inline-block;
 	background-color: #000000;
 
