@@ -43,6 +43,11 @@ ul.c {
     border-style: solid;
 }
 
+#imgresize2 {
+	height: 128px;
+	width: 512px;
+}
+
 nav p {
 	background: white;
 }
